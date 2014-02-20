@@ -1,0 +1,7 @@
+li.list-group-item.title Autour du point
+
+each detail, i in data.details
+    li.list-group-item.sub-title #{i} km
+        li.list-group-item Défibrilateur : #{detail.defib}
+        li.list-group-item Arrêt de bus : #{detail.arret}
+

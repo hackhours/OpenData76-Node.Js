@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.title{
+    background-color: #428BCA;
+    border-color: #428BCA;
+    color: #FFFFFF;
+    z-index: 2;
+}
+.sub-title{
+    background-color: #46acef !important;
+
+    color:white !important;
+}
+
+#map-canvas { height: 600px; margin: 10px 0 0 0 }
